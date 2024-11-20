@@ -1,0 +1,24 @@
+start
+  whole x = 10;
+  decimal y = 20.5;
+  text message = "Hello, World!";
+  
+  if condition x < y then
+    write("Y is Greater than X");
+  otherwise
+    write("x is not less than y");
+  end
+  
+  // This is a single-line comment
+  
+  /*
+    This is a multi-line comment
+    spanning multiple lines.
+  */
+  
+  loop x = x + 1; again x < 15
+
+@
+plaban = 10;
+@
+stop

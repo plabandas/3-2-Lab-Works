@@ -1,0 +1,75 @@
+[line   1] => Keyword          : start
+[line   2] => Data Type        : whole
+[line   2] => Identifier       : x
+[line   2] => Operator         : =
+[line   2] => Integer Number   : 10
+[line   2] => Special Character : ;
+[line   3] => Data Type        : decimal
+[line   3] => Identifier       : y
+[line   3] => Operator         : =
+[line   3] => Floating Number  : 20.5
+[line   3] => Special Character : ;
+[line   4] => Data Type        : text
+[line   4] => Identifier       : message
+[line   4] => Operator         : =
+[line   4] => String Literal   : "Hello, World!"
+[line   4] => Special Character : ;
+[line   6] => Keyword          : if
+[line   6] => Keyword          : condition
+[line   6] => Identifier       : x
+[line   6] => Operator         : <
+[line   6] => Identifier       : y
+[line   6] => Keyword          : then
+[line   7] => Keyword          : write
+[line   7] => Delimiter        : (
+[line   7] => String Literal   : "Y is Greater than X"
+[line   7] => Delimiter        : )
+[line   7] => Special Character : ;
+[line   8] => Keyword          : otherwise
+[line   9] => Keyword          : write
+[line   9] => Delimiter        : (
+[line   9] => String Literal   : "x is not less than y"
+[line   9] => Delimiter        : )
+[line   9] => Special Character : ;
+[line  10] => Keyword          : end
+[line  12] => Single-line Comment : // This is a single-line comment
+[line  14] => Multi-line Comment  : /*
+    This is a multi-line comment
+    spanning multiple lines.
+  */
+[line  16] => Keyword          : loop
+[line  16] => Identifier       : x
+[line  16] => Operator         : =
+[line  16] => Identifier       : x
+[line  16] => Operator         : +
+[line  16] => Integer Number   : 1
+[line  16] => Special Character : ;
+[line  16] => Keyword          : again
+[line  16] => Identifier       : x
+[line  16] => Operator         : <
+[line  16] => Integer Number   : 15
+ERROR: Unrecognized token '@'
+[line  19] => Identifier       : plaban
+[line  19] => Operator         : =
+[line  19] => Integer Number   : 10
+[line  19] => Special Character : ;
+ERROR: Unrecognized token '@'
+[line  21] => Keyword          : stop
+
+My Lexical Analysis:
+------------------------------------
+Total Lines Processed: 21
+------------------------------------
+Total Errors Found   : 2
+Total Keywords       : 11
+Total Identifiers    : 9
+Total Numbers        : 5
+   -> Integers       : 4
+   -> Floats         : 1
+Total Strings        : 3
+Total Operators      : 8
+Total Delimiters     : 4
+Total Special Chars  : 7
+Total Datatypes      : 3
+Total Comments       : 2
+------------------------------------
